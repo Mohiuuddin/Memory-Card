@@ -1,16 +1,95 @@
-# React + Vite
+# 🧠 PokéMemory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**PokéMemory** is a fun and challenging memory card game built with **React**.
+Test your memory by clicking unique Pokémon cards — but **don’t click the same card twice**!
+Each click reshuffles the cards, making the game more challenging as you progress.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 How to Play
 
-## React Compiler
+1. Choose a difficulty level: **Easy**, **Medium**, or **Hard**
+2. Click on a card **you haven’t clicked before**
+3. After every click:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+   * Cards are reshuffled
+   * Your score increases
+4. ❌ Clicking the **same card twice** ends the game
+5. Try to beat your **best score**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* 🃏 Random Pokémon GIFs from the **Giphy API**
+* 🔀 Cards reshuffle after every click
+* 🏆 Best score tracking
+* 🎯 Multiple difficulty levels
+* 💥 Game over & restart screen
+* 🧠 Memory-based gameplay
+* ⚡ Built with modern React hooks
+
+---
+
+## 🛠️ Built With
+
+* **React**
+* **JavaScript (ES6+)**
+* **CSS**
+* **Giphy API**
+
+---
+
+## ⚙️ Core React Concepts Used
+
+* `useState` — game state & scores
+* `useEffect` — data fetching on difficulty change
+* `useRef` — dialog control & UI logic
+* Component-based architecture
+* Immutable state updates
+* Conditional rendering
+
+---
+
+## 🎯 Game Rules Summary
+
+* ✔ Click unique cards only
+* ❌ Clicking a repeated card = Game Over
+* 🔀 Cards reshuffle after each click
+* 🏆 Best score is saved during the session
+
+---
+
+## 🧠 What I Learned
+
+* Managing complex state in React
+* Implementing game logic cleanly
+* Fetching and formatting API data
+* Preventing unnecessary re-renders
+* Designing scalable component structure
+
+---
+
+## 📌 Future Improvements
+
+* 📱 Mobile responsiveness improvements
+* 🔊 Sound effects
+* 🌙 Dark mode
+* 🧠 Animations for card shuffle
+
+---
+
+## 🙌 Acknowledgements
+
+* Pokémon © Nintendo
+* GIFs provided by **Giphy**
+* Project inspired by **The Odin Project – Memory Card Game**
+
+---
+
+## 📜 License
+
+This project is for **learning purposes** and personal use.
+
+---
+
